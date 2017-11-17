@@ -7,111 +7,118 @@
 	</head>
 	<body>
 		<div>
-			<h1>GORBOKONENKO EVGENIY</h1>
-			<h2>Java Developer</h2>			
+			<h1 class="name">GORBOKONENKO EVGENIY</h1>
+			<h2 class="position">Java Developer</h2>			
 		</div>
 		<div>
-			<p class="contact_information">50 let Profsouzov | Russia | Omsk <br>
-			89136768890 | razgal94@gmail.com</p>
+			<p class="contact-information">50 let Profsouzov | Russia | Omsk <br>
+			<a href="tel:+79136768890">+79136768890</a> | <a href="mailto:razgal94@gmail.com">razgal94@gmail.com</a></p>
 		</div>
 		<hr>
-		<div class = "column1">
-			<img src="../images/samoed.jpg" alt="Me" title="Я (почти)"><br>
+		<div class = "column-left">
+			<img class="column-left__profile-photo" src="../images/samoed.jpg" alt="Me" title="Я (почти)"><br>
 			<div> 
-				<p class="block_title">Skills</p>
+				<p class="block-title">Skills</p>
 
-				<p class="text">Communication</p>		
-				<progress value="8" max="10"></progress>
+				<p class="text">Communication</p>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_communications"></div>
+				</div>
 
 				<p class="text">Teamwork</p>
-				<progress value="7" max="10"></progress>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_teamwork"></div>
+				</div>
 
 				<p class="text">Organization</p>
-				<progress value="8" max="10"></progress>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_organization"></div>
+				</div>
 
 				<p class="text">Attentive</p>
-				<progress value="7" max="10"></progress>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_attentive"></div>
+				</div>
 			</div>
 			
 			<div>
-				<p class="block_title">Software</p>
-				<p class="text">Photoshop</p>		
-				<progress value="3" max="10"></progress>
+				<p class="block-title">Software</p>
+
+				<p class="text">Photoshop</p>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_photoshop"></div>
+				</div>
+
 				<p class="text">Coding/CSS</p>
-				<progress value="6" max="10"></progress>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_coding-css"></div>
+				</div>
+
 				<p class="text">Intelij IDEA</p>
-				<progress value="5" max="10"></progress>
+				<div class="column-left__progress-bar">
+					<div class="column-left__progress-bar column-left__progress-bar_inside column-left__progress-bar_idea"></div>
+				</div>
 			</div>
 		</div>
-		<div  class="column2">
+		<div  class="column-right">
 			<div>
 				<div>
-					<p class="block_title">About me</p>
-					<p class="text"><b>I’M Gorbokonenko Evgeniy</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					<p class="block-title">About me</p>
+					<p class="text"><span class="bold-text">I’M Gorbokonenko Evgeniy</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 				</div>
+				
 				<div>
-					<p class="block_title">Education</p>
-					<div>
-						<table class="text">
-							<tr>
-								<td width= "17%" class="education_years">
-									2012 / 2016 
-								</td>
-								<td>
-									Faculty of Information Technologies and Computer Systems, Omsk State Technical University<br><b>Bachelor of science</b>
-								</td>
-							</tr>
-							<tr>
-								<td class="education_years">
-									2016 / 2018
-								</td>
-								<td>
-									Faculty of Elite Education and Magistracy, Omsk State Technical University<br><b>Student</b>
-								</td>
-							</tr>
-						</table>
+					<p class="block-title">Education</p>
+					<div class="text"><br>
+						<span>
+							<div class="column-right__education-years" >2012 / 2016</div>
+							<div class="column-right__place-of-education text">Faculty of Information Technologies and Computer Systems, Omsk State Technical University<br><span class="bold-text">Bachelor of science</span></div>
+						</span>
+						<span>
+							<div class="column-right__education-years" >2016 / 2018</div>
+							<div class="column-right__place-of-education text">Faculty of Elite Education and Magistracy, Omsk State Technical University<br><span class="bold-text">Student</span></div>
+						</span>
 					</div>
 				</div>
+
 				<div>
-					<p class="block_title">Experience</p>
+					<p class="block-title">Experience</p>
 					<div class="text">
-						<p class="work_years">
+						<p class="column-right__work-years">
 							12.2016 - Present
 						</p>
 						<p>
 							<strong>Engineer</strong><br>
 							Avtomatica-Servis, LTD
 						</p>	
-						<p class="description">
-							<b>Description.</b> If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited.
+						<p class="column-right__description">
+							<span class="bold-text">Description.</span> If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited.
 						</p>
 					</div>
 				</div>
 				<div>
-					<p class="block_title">Reference</p>
-					<table class="text">
-						<tr>
-							<td width= "70%">
-								<div> <b>Michael Johns</b></div>
-								<div>Manager /Compony</div>
-								<div class="contact_information">
-								T. +1 0123 456 789<br>
-								E. Michael Johnsr@gmail.com
-								</div>
-							</td>
-							<td>
-								<div> <b>Michael Johns</b></div>
-								<div>Manager /Compony</div>
-								<div class="contact_information">
-								T. +1 0123 456 789<br>
-								E. Michael Johnsr@gmail.com
-								</div>
-							</td>
-						</tr>
-					</table>
+					<p class="block-title">Reference</p><br>
+					<span class="text">
+						<div class="column-right__reference">
+							<div class="bold-text" >Michael Johns</div>
+							<div>Manager /Compony</div>
+							<div class="contact-information">
+							T. <a href="tel:+10123456789">+1 0123 456 789</a><br>
+							E. <a href="mailto:MichaelJohnsr@gmail.com">MichaelJohnsr@gmail.com</a>
+							</div>
+						</div>
+						<div class="column-right__reference">
+							<div class="bold-text" >Michael Johns</div>
+							<div>Manager /Compony</div>
+							<div class="contact-information">
+							T. <a href="tel:+10123456789">+1 0123 456 789</a><br>
+							E. <a href="mailto:MichaelJohnsr@gmail.com">MichaelJohnsr@gmail.com</a>
+							</div>
+						</div>
+					</span>
 				</div>				
 			</div>
 		</div>
-		<hr class="end_border">
+		<hr class="end-border">
 	</body>
 </html>

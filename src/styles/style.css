@@ -8,86 +8,56 @@
  }
 
 body {
-    max-width: 2551px; /* Максимальная ширина страницы в пикселах */
+    max-width: 2551px; /* Максимальная ширина страницы в пикселях */
     margin: auto;
     font-family: Century Gothic;
+    padding: 0, 100px;
 }
 
-h1{
-	font-size: 62pt;
+.name{
+	font-size: 83px;
 	font-weight:normal;
 	color: #424243;
 	margin-bottom:0px;
 	margin-top: 214px;
 }
 
-h2{
-	font-size: 42pt;
+.position{
+	font-size: 56px;
 	font-weight:normal;
 	color: #424243;
 	margin-top: 0px; 
 }
 
-img{
+.column-left__profile-photo{
 	width: 779px;
 	margin: 72px 109px 0px 0px; 
 }
 
-td{
-	padding-top: 60px;
-}
-
-progress
-{
-	width: 619px; 
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-}
-
-progress::-webkit-progress-value{
-    background-color: grey;
-}
-
-progress::-webkit-progress-bar{
-    background-color: white;
-
-}
-
-progress::-webkit-progress-inner-element{
-	border: 1px solid grey;
-}
-
-div{
-	text-align: left;
-}
-
-.name{
-	text-align: right; 
-}
-.contact_information{
+.contact-information{
 	color: #9c9da0;
 	margin-bottom: 120px;
-	font-size: 25pt;
+	font-size: 33px;
 }
 
-.column1{
+.column-left{
 	display: inline-block;
-	width: 900px;
+	width: 779px;
 	vertical-align:top;
+	margin-right: 100px;
 }
 
-.column2{
+.column-right{
 	display: inline-block;
 	width: 1646px;
 	vertical-align:top;
 }
 
-.block_title{
+.block-title{
 	text-align: center;
 	background-color: #F2CF00;
 	display: inline-block;
-	font-size: 26pt;
+	font-size: 34px;
 	/*font-weight: bold;*/
 	font-family: Montserrat SemiBold;
 	margin-top: 65px;
@@ -96,36 +66,92 @@ div{
 }
 
 .text{
-	font-size: 27pt;
+	font-size: 36px;
 	color: #424243;
 	margin-bottom: 10px;
-	line-height: 45pt;
+	line-height: 62px;
 	text-align: justify;
 	box-sizing:border-box;
 	text-align:top;
 }
 
-.education_years{
+.column-right__education-years{
 	vertical-align: top;
 	font-weight: bold;
 	color: #9c9da0;
+	display: inline-block;
+	width: 16%;
 }
 
-.work_years{
+.column-right__work-years{
 	color: #9c9da0;
 	font-style: oblique;
 }
 
-.description{
+.column-right__description{
 	color: #9c9da0;
-	font-size: 25pt; 
+	font-size: 34px; 
 	margin-bottom: 0px;
 }
+.column-right__place-of-education{
+	display: inline-block;
+	width: 83%;
+}
 
-.end_border{
+.end-border{
 	background-color: #e8c734;
 	height: 50px;
 	border-width:0px;
-	width: 2750px;
+	width: 2680px;
 	margin-left: -100px;
+}
+
+.bold-text{
+	font-weight: bold;
+}
+
+.column-left__progress-bar{
+	background-color: white;
+	height: 18px;
+	width: 620px;
+	border: 1px solid grey;
+	
+}
+
+.column-left__progress-bar_inside{
+	background-color: grey;
+	height: 16px;
+}
+
+.column-left__progress-bar_communications{
+	width: 80%;
+}
+
+.column-left__progress-bar_teamwork{
+	width: 70%;
+}
+
+.column-left__progress-bar_organization{
+	width: 80%;
+}
+
+.column-left__progress-bar_attentive{
+	width: 70%;
+}
+
+.column-left__progress-bar_photoshop{
+	width: 30%;
+}
+
+.column-left__progress-bar_coding-css{
+	width: 60%;
+}
+
+.column-left__progress-bar_idea{
+	width: 60%;
+}
+
+.column-right__reference{
+	display: inline-block;
+	width: 49.7%;
 }
